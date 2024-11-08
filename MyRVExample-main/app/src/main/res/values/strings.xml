@@ -54,7 +54,7 @@
     </string-array>
 
     <!-- res/values/strings.xml -->
-    <string name="place_image"> Mekan görüntüsü</string>
+    <string name="place_image"> </string>
 
 
 </resources>

@@ -17,15 +17,10 @@ class ItemAdapter(private val data: List<Place>): RecyclerView.Adapter<ItemAdapt
     class ItemViewHolder(private val view: View): RecyclerView.ViewHolder(view){
 
         private lateinit var place: Place
-
-//        val nameView: TextView = view.findViewById(R.id.nameTV)
-//        val profileView: TextView = view.findViewById(R.id.profileDescTV)
-
         val nameTextView: TextView = view.findViewById(R.id.placeNameTextView)
         val locationTextView: TextView = view.findViewById(R.id.locationTextView)
         val bestTimeTextView: TextView = view.findViewById(R.id.bestTimeTextView)
         val placeImageView: ImageView = view.findViewById(R.id.placeImageView)
-
 
         init {
             view.setOnClickListener{
@@ -41,8 +36,6 @@ class ItemAdapter(private val data: List<Place>): RecyclerView.Adapter<ItemAdapt
         @SuppressLint("ResourceType")
         fun bind(place:Place){
             this.place = place
-//            nameView.text = user.name
-//            profileView.text = user.profileDesc
             nameTextView.text = place.name
             locationTextView.text = place.location
             bestTimeTextView.text = place.bestTimeToVisit

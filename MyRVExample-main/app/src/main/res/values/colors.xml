@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- res/values/colors.xml -->
+    <color name="primaryTextColor">#333333</color> <!-- Dark gray for main titles -->
+    <color name="secondaryTextColor">#555555</color> <!-- Medium gray for subtitles -->
+    <color name="tertiaryTextColor">#777777</color> <!-- Lighter gray for additional info -->
+</resources>
+
+

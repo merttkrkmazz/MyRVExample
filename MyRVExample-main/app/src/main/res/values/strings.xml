@@ -8,6 +8,10 @@
         <item>Machu Picchu</item>
         <item>Santorini</item>
         <item>Banff National Park</item>
+        <item>Pyramids of Giza</item>
+        <item>Mount Fuji</item>
+        <item>Statue of Liberty</item>
+        <item>Sydney Opera House</item>
     </string-array>
 
     <string-array name="location_array">
@@ -17,6 +21,10 @@
         <item>Peru</item>
         <item>Greece</item>
         <item>Alberta, Canada</item>
+        <item>Giza, Egypt</item>
+        <item>Honshu, Japan</item>
+        <item>New York, USA</item>
+        <item>Sydney, Australia</item>
     </string-array>
 
     <string-array name="description_array">
@@ -26,6 +34,10 @@
         <item>A stunning ancient city set high in the Andes mountains.</item>
         <item>A picturesque island known for white buildings and blue domes.</item>
         <item>Scenic national park with mountains, lakes, and diverse wildlife.</item>
+        <item>Ancient pyramids, one of the Seven Wonders of the Ancient World.</item>
+        <item>A beautiful mountain, famous for its snow-capped peak and scenic views.</item>
+        <item>Iconic symbol of freedom with a torch and crown.</item>
+        <item>Famous opera house known for its unique architecture and harbor view.</item>
     </string-array>
 
     <string-array name="best_time_array">
@@ -35,6 +47,10 @@
         <item>May to September</item>
         <item>April to October</item>
         <item>June to August</item>
+        <item>October to April</item>
+        <item>April to June, September to November</item>
+        <item>September to November</item>
+        <item>March to May, September to November</item>
     </string-array>
 
     <!-- res/values/strings.xml -->

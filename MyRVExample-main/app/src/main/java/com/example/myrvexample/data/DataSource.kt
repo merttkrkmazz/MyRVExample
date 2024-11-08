@@ -24,7 +24,11 @@ class DataSource(val context: Context) {
             R.drawable.great_wall,
             R.drawable.machu_picchu,
             R.drawable.santorini,
-            R.drawable.banff_national_park
+            R.drawable.banff_national_park,
+            R.drawable.pyramids_of_giza,
+            R.drawable.fuji_mount,
+            R.drawable.liberty,
+            R.drawable.sydney_opera_house
         )
     }
 
